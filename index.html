@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Financial Growth</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+    body {
+    font-family: 'Inter', sans-serif;
+    }
+
+    .custom-mask {
+-webkit-mask-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg"><path d="M60,0 H600 V340 Q600,400 540,400 H0 V60 Q0,0 60,0 Z" fill="white"/></svg>');
+-webkit-mask-repeat: no-repeat;
+-webkit-mask-size: 100% 100%;
+mask-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg"><path d="M60,0 H600 V340 Q600,400 540,400 H0 V60 Q0,0 60,0 Z" fill="white"/></svg>');
+mask-repeat: no-repeat;
+mask-size: 100% 100%;
+    }
+</style>
+</head>
+<body class="bg-[#f9f9f9] text-[#111827] overflow-x-hidden">
+
+<section class="w-full px-6 py-16 flex justify-center items-center">
+    <div class="w-full max-w-[1280px] flex flex-col lg:flex-row justify-between items-start gap-12">
+
+    <!-- LEFT -->
+    <div class="w-full lg:w-1/2 space-y-10">
+        <!-- Headline and Buttons Row -->
+        <div class="flex flex-col">
+        <div class="flex flex-row justify-between items-end flex-wrap">
+            <h1 class="text-[48px] leading-[58px] font-semibold">
+            Profit Crafted,<br>
+            Goals Achieved
+            </h1>
+            <div class="flex gap-4 mt-4 lg:mt-0">
+            <a href="#" class="bg-blue-600 hover:bg-blue-700 transition text-white px-6 py-3 rounded-xl text-sm font-semibold">
+                Get Started ↗
+            </a>
+            <a href="#" class="bg-white hover:bg-gray-100 border border-gray-300 text-sm px-6 py-3 rounded-xl font-semibold">
+                Learn more
+            </a>
+            </div>
+        </div>
+        </div>
+
+        <!-- Subheading -->
+        <div>
+        <h2 class="font-semibold text-lg mb-2">Your Growth, Our Business</h2>
+        <p class="text-gray-600 max-w-md">
+            Empowering your financial journey with tailored solutions that ensure sustainable growth.
+        </p>
+        </div>
+    </div>
+
+    <!-- RIGHT: Image -->
+    <div class="w-full lg:w-1/2 relative h-[400px]">
+        <div class="w-full h-full custom-mask overflow-hidden shadow-lg">
+        <img
+            src="finance image.jpg"
+            alt="Financial growth"
+            class="w-full h-full object-cover"
+        />
+        </div>
+    </div>
+    </div>
+
+    <!-- STATS -->
+    <div class="flex justify-between items-center w-full max-w-[1280px] mt-12 px-4 lg:px-0">
+    <div>
+        <p class="text-4xl font-bold">798<span class="text-blue-600">M+</span></p>
+        <p class="text-sm text-gray-600">Happy client</p>
+    </div>
+    <div>
+        <p class="text-4xl font-bold">99.9<span class="text-blue-600">%</span></p>
+        <p class="text-sm text-gray-600">Growth Financial</p>
+    </div>
+    </div>
+
+</section>
+
+</body>
+</html>
